@@ -1,2 +1,107 @@
 /* Adicione aqui todo o estilo da sua página */
 /* Hora de colocar a criatividade em prática! */
+
+header {
+    /*border: 2px solid red;*/
+    color: rgb(122, 187, 24);
+    width: 1600px;
+    height: 900px;
+    background-image: url(imagens/bannerprincipal1.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+
+header h1 {
+    width:950px;
+    text-align: center;
+    font-size:100px;
+    font-family: Pacifico;
+}
+
+header p {
+    width:950px;
+    text-align: center;
+    font-size:40px;
+    font-family: Pacifico;
+}
+
+#banner {
+    width:950px;
+    text-align: center;
+    position:absolute;
+    top: 150px;
+
+}
+
+aside {
+    /*border: 2px solid rgb(255, 38, 0);*/
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    position:fixed;
+    float: right;
+    background-color: rgb(122, 187, 24);
+      
+}
+
+aside h2 {
+    color: white;
+    font-family: Pacifico;
+    font-size: 55px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin-right: 15%;
+    margin-top: 40%;
+    font-size:23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    display: block;
+}
+
+a:hover {
+   color: orange;
+}
+
+li {
+     padding: 10px;
+}
+
+#quemsomos{
+    display: block;
+    width: 1600px;
+    color: rgb(122, 187, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/cheff2.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin: 100px;
+}
+
+#quemsomos h1 {
+    font-size: 55px;
+    font-family: Pacifico;
+}
+
+#quemsomos p {
+    font-size: 23px;
+    width: 850px;
+    margin: auto;
+}
+
+#quemsomos div {
+    width:900px;
+    text-align: center;
+    margin-left: 540px;
+    height:600px;
+}
