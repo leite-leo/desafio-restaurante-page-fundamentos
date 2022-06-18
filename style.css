@@ -42,7 +42,7 @@ aside {
     position:fixed;
     float: right;
     background-color: rgb(122, 187, 24);
-      
+    top: 0%;
 }
 
 aside h2 {
@@ -50,6 +50,7 @@ aside h2 {
     font-family: Pacifico;
     font-size: 55px;
     text-align: center;
+    
 }
 
 ul {
@@ -85,7 +86,7 @@ li {
     background-image: url(imagens/cheff2.jpg);
     background-size: cover;
     display: inline-block;
-    margin: 100px;
+    margin: 85px;
 }
 
 #quemsomos h1 {
@@ -95,6 +96,7 @@ li {
 
 #quemsomos p {
     font-size: 23px;
+    line-height: 35px;
     width: 850px;
     margin: auto;
 }
@@ -104,4 +106,80 @@ li {
     text-align: center;
     margin-left: 540px;
     height:600px;
+}
+
+#cardapio h1 {
+    font-family: Pacifico;
+    font-size: 55px;
+    color: rgb(122, 187, 24);
+    width: 1590px;
+    text-align: center;   
+}
+
+.linhacard {
+    display: inline-block;
+    width: 965px;
+    margin-left: 20% ;
+}
+
+#cardapio div {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 0px 30px;
+    padding: 0px 15px;
+}
+
+#cardapio h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(122, 187, 24);
+}
+
+.l1el2 {
+    width: 1585px;
+    height: 600px;
+}
+
+#cardapio img {
+    border-radius: 15%;
+}
+
+#depoimentos {
+    width: 1640px;
+    top: 2500px;
+    margin-left: 10px;
+}
+
+#depoimentos div {
+    width: 32%;
+    height: 300px;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+#depoimentos img {
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+#depoimentos p{
+    text-align: center;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(122, 187, 24);
+    line-height: 30px;
+}
+
+#depoimentos h1 {
+    font-family: Pacifico;
+    font-size: 55px;
+    color: rgb(122, 187, 24);
+    text-align: center;
+}
+
+#depoimentos h2 {
+    text-align: center;
+    color: rgb(122, 187, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
