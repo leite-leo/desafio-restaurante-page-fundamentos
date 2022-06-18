@@ -6,7 +6,7 @@ header {
     color: rgb(122, 187, 24);
     width: 1600px;
     height: 900px;
-    background-image: url(imagens/bannerprincipal1.jpg);
+    background-image: url(imagens/bannerprincipal2.jpg);
     background-size: cover;
     display: inline-block;
 }
@@ -83,10 +83,10 @@ li {
     width: 1600px;
     color: rgb(122, 187, 24);
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(imagens/cheff2.jpg);
+    background-image: url(imagens/cheff1.jpg);
     background-size: cover;
     display: inline-block;
-    margin: 85px;
+    margin: 45px;
 }
 
 #quemsomos h1 {
@@ -102,7 +102,7 @@ li {
 }
 
 #quemsomos div {
-    width:900px;
+    width:1050px;
     text-align: center;
     margin-left: 540px;
     height:600px;
